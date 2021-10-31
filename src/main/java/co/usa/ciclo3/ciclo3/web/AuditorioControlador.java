@@ -19,7 +19,7 @@ import co.usa.ciclo3.ciclo3.model.Auditorio;
 import co.usa.ciclo3.ciclo3.service.AuditorioService;
 
 @RestController
-@RequestMapping("api/audience")
+@RequestMapping("api/Audience")
 @CrossOrigin(origins = "*", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT,
         RequestMethod.DELETE })
 public class AuditorioControlador {
